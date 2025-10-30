@@ -6,6 +6,7 @@ __pycache__/
 # Local out
 out/
 run.log
+exam_runner.spec
 
 # C extensions
 *.so
