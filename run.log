@@ -1,0 +1,19 @@
+2025-10-29 19:18:03,339 INFO Inicio del examen
+2025-10-29 19:18:03,431 INFO Screenshot before exitosa
+2025-10-29 19:18:03,480 ERROR Unable to run msedge: Command '['Stop-Process -Name "msedge" -Force ; Start-Sleep -Seconds 1 ; Start-Process "msedge" -ArgumentList @("https://forms.office.com/pages/responsepage.aspx\\?id=EZDKymp73kSGHwlaLKiDt4wXC_YfIWlGrUcWrbkA4-NURjFZQjdBMkJNSlkwQkVCM0c2V0cyWTVHNSQlQCNjPTEu&classId=31f16070-5361-4de8-9624-98f60a6f24ae&assignmentId=c865c317-1511-4faa-8a46-565ecf1dd392&submissionId=d6e96aee-73d5-bc05-1769-7e7db0c29f9d&route=shorturl", "--new-window", "--start-fullscreen")']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "C:\Users\abrah\Documents\python_pc\parcial_3\main.py", line 30, in main
+    invoke_msedge()
+  File "C:\Users\abrah\Documents\python_pc\parcial_3\invoke_msedge.py", line 9, in invoke_msedge
+    run([cmd], capture_output=True, text=True,
+  File "C:\Users\abrah\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['Stop-Process -Name "msedge" -Force ; Start-Sleep -Seconds 1 ; Start-Process "msedge" -ArgumentList @("https://forms.office.com/pages/responsepage.aspx\\?id=EZDKymp73kSGHwlaLKiDt4wXC_YfIWlGrUcWrbkA4-NURjFZQjdBMkJNSlkwQkVCM0c2V0cyWTVHNSQlQCNjPTEu&classId=31f16070-5361-4de8-9624-98f60a6f24ae&assignmentId=c865c317-1511-4faa-8a46-565ecf1dd392&submissionId=d6e96aee-73d5-bc05-1769-7e7db0c29f9d&route=shorturl", "--new-window", "--start-fullscreen")']' returned non-zero exit status 1.
+2025-10-29 19:18:07,639 INFO Screenshot during exitosa
+2025-10-29 19:18:12,738 INFO Screenshot after exitosa
+2025-10-29 19:18:12,739 INFO Fin del examen
+2025-10-29 19:22:14,873 INFO Inicio del examen
+2025-10-29 19:22:14,984 INFO Screenshot before exitosa
+2025-10-29 19:22:20,674 INFO Screenshot during exitosa
+2025-10-29 19:22:25,775 INFO Screenshot after exitosa
+2025-10-29 19:22:25,775 INFO Fin del examen
